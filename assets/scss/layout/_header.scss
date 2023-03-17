@@ -1,0 +1,52 @@
+// header {
+//   .top-header {
+//     background: #696969;
+//     display: flex;
+//     justify-content:center;
+//     align-items: center;
+//     .top-header-mail {
+//       color: $color-white;
+//       font-size: $font-size-small;
+//       :hover {
+//         color: $primary-color;
+//       }
+//     }
+//     .top-header-phone {
+//       color: $color-white;
+//       font-size: $font-size-small;
+//       :hover {
+//         color: $primary-color;
+//       }
+//     }
+//     @media (max-width:991px) {
+//       display: none;
+//     }
+//   }
+// }
+//   .navbar {
+//     background: $color-white;
+//     box-shadow: $box-shadow-14;
+//     padding-bottom: 0 !important;
+//     padding-top: 0 !important;
+//     margin: 0;
+//     .navbar-brand {
+//       margin: 0;
+//       padding: 10px 0;
+//       img {
+//         width: 120px;
+//         height: 60px;
+//       }
+//     }
+//     .nav-link {
+//       padding: 15px 25px ;
+//       :active {
+//         color: $global-secondary-color;
+//       }
+//     } 
+//     .nav-link.active , .nav-link:hover {
+//       color: $primary-color;
+//     }
+//     .nav-link.active .nav-text , .nav-link:hover .nav-text{
+//       color: $primary-color;
+//     }
+//    }

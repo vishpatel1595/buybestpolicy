@@ -1,0 +1,637 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+.user-profile {
+    width: 100%;
+}
+
+.user-profile-detail-wrapper {
+    background: $user-profile-bg;
+    border: 0.063rem solid $light-blue;
+    box-shadow: $box-shadow-3;
+    border-radius: 0.938rem;
+    padding: 0.938rem;
+    .user-profile-img {
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+        width: 11.313rem;
+        height: 11.313rem;
+        @media (max-width:1199px) {
+            display: none;
+        }
+    }
+    .profile-name-details-wrapper {
+        display: flex;
+        align-items: baseline;
+    }
+    .profile-name-details {
+        vertical-align: bottom;
+    }
+    .user-portfolio-details-wrapper {
+        background: $user-pofile-detail-bg;
+        box-shadow: $box-shadow-3;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+        height: 100%;
+        flex-wrap: wrap;
+        @media (max-width:767px) {
+            margin-bottom: 0.938rem;
+            
+        }
+    }
+    .pl-title {
+        font-weight: $font-weight-medium;
+        font-size: 1.5rem;
+        line-height: 100%;
+        @media (max-width:991px) {
+            font-size: $font-size-20;
+        }
+    }
+    .pl-value {
+        font-weight: $font-weight-medium;
+        font-size: 3rem;
+        line-height: 100%;
+    @media (max-width:991px) {
+        font-size: $font-size-20;
+    }
+    
+    }
+    .pofitloss-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    .profit-loss-values {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    .pofit-up {
+        color: $success-alert;
+        font-weight: $font-weight-medium;
+        font-size: 1.5rem;
+        line-height: 100%;
+        @media (max-width:991px) {
+            font-size: $font-size-20;
+        }
+    }
+    .loss-low {
+        color: $loss-warning;
+        font-weight: $font-weight-medium;
+        font-size: 1.5rem;
+        line-height: 100%;
+        @media (max-width:991px) {
+            font-size: $font-size-20;
+        }
+    }
+    .invest-amt-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .total-investment-wrapper {
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 0.563rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+        
+    }
+    .inv-ctr-title {
+        color: $info-alert;
+        font-weight: $font-weight-medium;
+        font-size: 1.5rem;
+        line-height: $font-line-height-p;
+        @media (max-width:991px) {
+            font-size: $font-size-20;
+        }
+    }
+    .inv-ctr-rate {
+        font-weight: $font-weight-medium;
+        line-height: $font-line-height-p;
+        font-size: 2rem;
+        line-height: 100%;
+        text-align: center;
+        color: $header-bg;
+        @media (max-width:991px) {
+            font-size: $font-size-20;
+        }
+    }
+    .inv-img-wrapper {
+        margin: 0 0 0 0 !important;
+        padding: 0;
+        img {
+            width: 2.188rem;
+            height: 2.188rem;
+        }
+    }
+}
+.list-of-funds {
+    background: $color-white;
+    border: 0.063rem solid $color-white-two;
+    box-shadow: $box-shadow-3;
+    border-radius: 0.938rem;
+    .table {
+        border: 0 !important;
+        height: 15.625rem !important;
+        max-height: 15.625rem !important;
+        overflow-y: auto;
+        th {
+            word-break: break-all !important;
+            font-size: $font-size-small;
+            border: none;
+            padding: 0.56rem !important;
+        }
+        td {
+            white-space: wrap;
+            word-break: break-all;
+            font-size: $font-size-small;
+            border: 0 !important;
+            padding: none !important;
+            vertical-align: middle !important;
+        }
+    }
+}
+.goalwrapper {
+    background: $border-color-light;
+    border-radius: 1.25rem;
+    padding: 1rem;
+    margin-bottom:0.938rem;
+
+    h5{
+        text-align: left;
+    @media (max-width:767px) {
+        text-align: center;
+    }
+    }
+}
+.sliding-amc {
+    padding: 0.938rem;
+    border-radius: 1.25rem;
+    border: 0.063rem solid $label-after-bg;
+    @media (max-width:767px) {
+        width: 100%;
+    }
+    .card-header {
+        background: transparent;
+        border-bottom: 0.063rem solid $light-yellow-two;
+        display: flex;
+        .img-card {
+            width: 2.188rem !important;
+            height: 2.188rem !important;
+        }
+    }
+    .card-body {
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0.063rem solid $light-yellow-two;
+        padding: unset;
+        @media (max-width:767px) {
+            
+        }
+        .date {
+            border-right: 0.063rem solid $light-yellow-two;
+            padding: 0.75rem;
+            font-size: $font-size-small;
+            p {
+                margin: 0;
+            }
+        }
+        .peakprice {
+            padding: 0.75rem;
+            font-size: $font-size-small ;
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+.user-profile {
+    .userpro-header {
+        background: $userprofilebg;
+    }
+    .userpro-body {
+        display: flex;
+        justify-content: space-around;
+        button {
+            background: transparent !important;
+            border: none;
+        }
+    }
+}
+.news-feed-list {
+    padding: 1.25em;
+    background: $color-white;
+    box-shadow: $box-shadow-4;
+    border-radius: 1.25rem;
+    .card-wrapper {
+        height: 7.5rem;
+        overflow-y: scroll;
+    }
+    .news-card {
+        display: flex;
+        flex-direction: row;
+        border: none;
+        margin-bottom: 1.25rem;
+        figure {
+            width: 5.313rem;
+            height: 5.313rem;
+            margin-right: 0.938rem;
+        }
+        .card-img {
+            width: 5.313rem;
+            height: 5.313rem;
+        }
+    }
+}
+.accordian-profile {
+    .accordion-button {
+        background: $accordian-btn-bg;
+        border: 0.125rem solid $accordian-border;
+        border-radius: 0.313rem;
+        font-weight: $font-weight-bold;
+        font-size: 0.938rem;
+        line-height: 100%;
+        text-transform: capitalize;
+        color: $accordian-btn-color;
+        padding: 0.625rem;
+        position: relative;
+        padding-left: 1.563rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .accordion-button::after {
+        position: absolute;
+        left: 0;
+        transition: none;
+        background: none;
+        content: "+";
+        font-size: 1.25rem;
+        margin: 0 0.625rem;
+        display: flex;
+        align-items: center;
+    }
+    .accordion-button:not(.collapsed)::after {
+        content: "-";
+        background: none;
+        transition: none;
+        font-size: $font-size-20;
+        margin: 0 0;
+        display: flex;
+        align-items: center;
+    }
+    .accordion-button:not(.collapsed) {
+        color: $primary-color;
+        background-color: $accordian-btn-bg;
+        // box-shadow: inset 0 -0.063rem 0 rgba(0,0,0,.125);
+        box-shadow: none;
+    }
+    .accordion-item {
+        border: none;
+        margin-bottom: 0.125rem;
+    }
+}
+.profile-card {
+    background: $profile-card-bg;
+    border: 0.063rem solid $profile-border-card;
+    border-radius: 0.5rem;
+    padding: 0.938rem;
+    .card-content {
+        padding: 0;
+        label {
+            font-weight: $font-weight-semi-bold;
+            font-size: $font-size-xs;
+        }
+        span {
+            font-size: $font-size-xs;
+            font-weight: $font-weight-regular;
+        }
+        input {
+            display: none;
+        }
+    }
+}
+.bank-card {
+    border-radius: 0.5rem;
+    padding: 0.938rem;
+    .accordion {
+        border: none;
+    }
+    .card-content {
+        padding: 0;
+        label {
+            font-weight: $font-weight-semi-bold;
+            font-size: $font-size-xs;
+        }
+        span {
+            font-size: $font-size-xs;
+            font-weight: $font-weight-regular;
+        }
+        input {
+            display: none;
+        }
+    }
+}
+.nominee-card {
+    border-radius: 0.5rem;
+    padding: 0.938rem;
+    .card-content {
+        padding: 0;
+        label {
+            font-weight: $font-weight-semi-bold;
+            font-size: $font-size-xs;
+        }
+        span {
+            font-size: $font-size-xs;
+            font-weight: $font-weight-regular;
+        }
+    }
+}
+.dp-card {
+    border-radius: 0.5rem;
+    padding: 0.938rem;
+    margin-bottom: 0.938rem;
+    .card-content {
+        padding: 0;
+        label {
+            font-weight: $font-weight-semi-bold;
+            font-size: $font-size-xs;
+        }
+        span {
+            font-size: $font-size-xs;
+            font-weight: $font-weight-regular;
+        }
+        input {
+            display: none;
+        }
+    }
+}
+.nominee-add-content {
+    background: $noniee-bg;
+    border: 0.125rem solid $nominee-border;
+    border-radius: 0.5rem;
+    padding: 0.938rem;
+    .nominee-btn {
+        background: $error-alert;
+        border-radius: 0.313rem;
+        color: $color-white;
+    }
+}
+.accordion-body {
+    background: $accordian-body-bg;
+    border: none;
+    padding: 0 0.938rem 0.938rem 0.938rem !important;
+}
+span.active {
+    font-size: $font-size-body;
+    background: $active-accordian;
+    border-radius: 50%;
+    display: inline-block;
+    height: 0.625rem;
+    width: 0.625rem;
+}
+span.deactive {
+    font-size: $font-size-body;
+    background: $deactive-span;
+    border-radius: 50%;
+    display: inline-block;
+    height: 0.625rem;
+    width: 0.625rem;
+}
+.success-modal {
+    .modal-content {
+        background: $lineargradient-1;
+        border: 0.063rem solid $modal-border-content;
+        box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.625rem;
+        .btn {
+            font-size: $font-size-normal;
+        }
+    }
+}
+.error-modal {
+    .modal-content {
+        background: $lineargradient-1;
+        border: 0.063rem solid $modal-border-content;
+        box-shadow: $box-shadow-29;
+        border-radius: 0.625rem;
+    }
+}
+.warning-modal {
+    .modal-content {
+        background: $lineargradient-1;
+        border: 0.063rem solid $modal-border-content;
+        box-shadow:$box-shadow-29;
+        border-radius: 0.625rem;
+        .btn {
+            font-size: $font-size-normal;
+        }
+    }
+}
+.successfullloginmodal {
+    .modal-content {
+        background: $lineargradient-1;
+        border: 0.063rem solid $modal-border-content;
+        box-shadow: $box-shadow-26;
+        border-radius: 0.625rem;
+        .btn {
+            font-size: $font-size-normal;
+        }
+    }
+}
+@media (min-width: 576px) {
+    .success-modal {
+        .modal-dialog {
+            max-width: 18.75rem !important;
+            height: 21.875rem !important;
+            max-height: 21.875rem !important;
+        }
+        .modal-header {
+            .btn-close {
+                border-radius: 50%;
+                font-size: 0.563rem;
+                border: 0.063rem solid $primary-color;
+                color: $primary-color;
+                &:focus {
+                    box-shadow:$box-shadow-27;
+                }
+            }
+        }
+    }
+    .error-modal {
+        .modal-dialog {
+            max-width: 18.75rem !important;
+            height: 21.875rem !important;
+            max-height: 21.875rem !important;
+        }
+        .modal-header {
+            .btn-close {
+                border-radius: 50%;
+                font-size: 0.563rem;
+                border: 0.063rem solid;
+                color: $primary-color;
+                &:focus {
+                    box-shadow: $box-shadow-27;
+                }
+            }
+        }
+    }
+    .warning-modal {
+        .modal-dialog {
+            max-width: 18.75rem !important;
+            height: 21.875rem !important;
+            max-height: 21.875rem !important;
+        }
+        .modal-header {
+            .btn-close {
+                border-radius: 50%;
+                font-size: 0.563rem;
+                border: 0.063rem solid $primary-color;
+                color: $primary-color;
+                &:focus {
+                    box-shadow: $box-shadow-27;
+                }
+            }
+        }
+    }
+    .successfullloginmodal {
+        .modal-dialog {
+            max-width: 18.75rem !important;
+            height: 25rem !important;
+            max-height: 25rem !important;
+        }
+    }
+}
+.img-modal {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+.custom-alert {
+    background: $color-white;
+    box-shadow: $box-shadow-28;
+    border-radius: 0;
+    padding: 0.875rem 0.75rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.313rem;
+    margin-bottom: 0.313rem;
+    width: 18.75rem;
+    position: relative;
+    z-index: 99;
+}
+.success-alert {
+    border-left: 0.375rem solid $success-alert;
+}
+.success-icon-alert {
+    font-size: $font-size-20;
+    font-weight: $font-weight-regular;
+    letter-spacing: $letter-spacing-one;
+    line-height: $font-line-height-body;
+    margin-right: 0.938rem;
+    color: $success-alert;
+}
+.info-alert {
+    border-left: 0.375rem solid $info-alert;
+}
+.info-icon-alert {
+    font-size: $font-size-20;
+    font-weight: $font-weight-regular;
+    letter-spacing: $letter-spacing-one;
+    line-height: $font-line-height-body;
+    margin-right: 0.938rem;
+    color: $info-alert;
+}
+.warning-alert {
+    border-left: 0.375rem solid $warning-alert;
+}
+.warning-icon-alert {
+    font-size: $font-size-20;
+    font-weight: $font-weight-regular;
+    letter-spacing: $letter-spacing-one;
+    line-height: $font-line-height-body;
+    margin-right: 0.938rem;
+    color: $warning-alert;
+}
+.error-alert {
+    border-left: 0.375rem solid $error-alert;
+}
+.error-icon-alert {
+    font-size: $font-size-20;
+    font-weight: $font-weight-regular;
+    letter-spacing: $letter-spacing-one;
+    line-height: $font-line-height-body;
+    margin-right: 0.938rem;
+    color: $error-alert;
+}
+.custom-alert-title {
+    font-size: $font-size-small;
+    font-weight: $font-weight-bold;
+    margin-bottom: 0.188rem;
+}
+.custom-alert-desc {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-normal;
+    line-height: $font-line-height-body;
+    letter-spacing: $letter-spacing-one;
+}
+.okmodal {
+    .modal-dialog {
+        background: $color-white;
+        box-shadow: $box-shadow-28;
+        border-radius: 0.313rem;
+        width: 21.375rem;
+        .modal-header {
+            .btn-close {
+                border-radius: 50%;
+                font-size: 0.313rem;
+                border: 0.063rem solid rgb(109, 103, 103);
+                color: rgb(109, 103, 103);
+                &:focus {
+                    box-shadow: unset;
+                }
+            }
+        }
+        p {
+            font-size: $font-size-small;
+        }
+    }
+}
+.edit-email-modal {
+    .modal-dialog {
+        width: 21.875rem;
+        .card-content {
+            label {
+                font-size: $font-size-normal;
+                color: $label-text-color;
+            }
+        }
+    }
+}
+.edit-mobile-modal {
+    .modal-dialog {
+        width: 21.875rem;
+        .card-content {
+            label {
+                font-size: $font-size-normal;
+                color: $label-text-color;
+            }
+            select {
+                font-size: $font-size-normal;
+            }
+            input {
+                font-size: $font-size-normal;
+            }
+        }
+    }
+}
+.modalupdatebtn {
+    background: $error-alert !important;
+    border-radius: 0.313rem;
+    color: $color-white !important;
+}

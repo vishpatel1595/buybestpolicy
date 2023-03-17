@@ -1,0 +1,18 @@
+.social-network-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+        margin-bottom: 0;
+        li {
+            padding: 6px;
+            a {
+                color: $color-white;
+                font-size: $font-size-small;
+                :hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

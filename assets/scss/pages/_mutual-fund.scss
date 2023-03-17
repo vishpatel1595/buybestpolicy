@@ -1,0 +1,658 @@
+.mutual-hero-section {
+    background-image: url("../web-asset/images/mutualfundbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 9.375rem 0;
+    @media (max-width:767px) {
+        padding: 2.5rem 0;
+    }
+    .banner_right_overlay {
+        background: rgba(255, 255, 255, 0.702);
+        width: 18.75rem;
+        height: 18.75rem;
+        top: 0;
+        border-radius: 50%;
+        @media  (max-width:767px){
+width: 10rem;
+height: 10rem;
+        }
+    }
+}
+.sub-title {
+    text-transform: uppercase;
+    color: $primary-color;
+}
+.popular-fund-wrapper {
+    width: 100%;
+    /* width */
+    .row::-webkit-scrollbar {
+        height: 0.25rem;
+        margin-top: 0.625rem;
+        cursor: pointer;
+    }
+    /* Track */
+    .row::-webkit-scrollbar-track {
+        background: $border-color-light;
+    }
+    /* Handle */
+    .row::-webkit-scrollbar-thumb {
+        background: $row-thumb;
+    }
+    /* Handle on hover */
+    .row::-webkit-scrollbar-thumb:hover {
+        background: $row-thumb-hover;
+    }
+    .popular-funds-box {
+        background-color: $background1;
+        padding: 0.5rem;
+        margin: 0 0.5rem;
+        border-radius: 0.375rem;
+        box-shadow: 0 0.125rem 0.25rem 0 $pf-box-shadow;
+        margin-bottom: 0.938rem;
+        cursor: pointer;
+        .popular-fund-img {
+            width: 3.563rem;
+            height: 3.563rem;
+            border-radius: 50%;
+            border: 0.063rem solid;
+        }
+        .popular-fund-desc {
+            padding: 0 0 0 1rem;
+            .popular-fund-title-wrapper {
+                .popular-fund-title {
+                    margin: 0;
+                    padding: 0;
+                    font-size: $font-size-normal;
+                    font-weight: $font-weight-semi-bold;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+.mf-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 100%;
+    padding-top: 1.563rem;
+    margin-top: 1.563rem;
+    border-top: 0.063rem solid $mf-border-top;
+    .nav {
+        .nav-item {
+            background-color: transparent;
+            position: relative;
+            margin: 0;
+            color: $text-color !important;
+            border-bottom: 0.063rem solid $table-border-color;
+            .dropdown-item {
+                flex-wrap: wrap;
+                display: flex;
+                white-space: break-spaces;
+            }
+            .dropdown-menu {
+                display: none;
+            }
+            .nav-link {
+                color: $text-color !important;
+            }
+            &.active,
+            &:hover {
+                // overflow: hidden;
+                // height: 100%;
+                .nav-link {
+                    color: $text-color;
+                }
+                .dropdown-menu {
+                    opacity: 1;
+                    visibility: visible;
+                    display: block;
+                    width: 100%;
+                    // height: 100%;
+                    max-height: max-content;
+                    position: absolute;
+                    top: 100%;
+                    // overflow-x: hidden;
+                    height: max-content;
+                    margin: 0;
+                    max-width: 100%;
+                    z-index: 999;
+                    box-shadow: $box-shadow-23;
+                    li {
+                        a {
+                            padding: 0.5rem 1rem;
+                            border-bottom: 0.063rem solid;
+                        }
+                    }
+                }
+            }
+        }
+        .dropdown-item {
+            flex-wrap: wrap;
+            display: flex;
+            white-space: break-spaces;
+            &.active,
+            &:active {
+                background-color: $dropdownitembg !important;
+            }
+        }
+    }
+    .mf-category-wrapper {
+        overflow: auto;
+        height: 100%;
+        padding: 0 1.875rem;
+        flex-wrap: wrap;
+        .categories-tabs {
+            .nav {
+                border-bottom: none;
+                .nav-item {
+                    .nav-link {
+                        border-top-left-radius: 0.625rem;
+                        border-top-right-radius: 0.625rem;
+                        padding: 0.75rem 1.875rem !important;
+                        margin-bottom: 0 !important;
+                        &.active {
+                            background: $color-white;
+                            background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 95.08%);
+                            border-bottom: 0.063rem solid transparent;
+                        }
+                    }
+                    &.active {
+                        background: $color-white;
+                        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(240, 247, 255, 1) 95.08%);
+                        border-bottom: 0.063rem solid transparent;
+                    }
+                }
+            }
+            .nav-tabs {
+                margin-bottom: 0;
+            }
+        }
+        .tab-content {
+            .tab-pane {
+                background-color: $tabpanebg;
+                padding: 1.5rem;
+                border-Bottom-right-radius: 0.938rem;
+                border-Bottom-left-radius: 0.938rem;
+            }
+        }
+        .typeof-box-content {
+            background: $color-white-three;
+            background: linear-gradient(90deg, rgba(240, 247, 255, 1) 100%, rgba(240, 247, 255, 1) 100%);
+            border-radius: 0.375rem;
+            border: 0.063rem solid $color-white;
+            padding: 1rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .typeof-box-content-link {
+                display: flex;
+                align-items: center;
+            }
+            figure {
+                padding-right: 1rem;
+            }
+            .content-description {
+                color: $text-color;
+            }
+        }
+    }
+    .type-category {
+        padding: 0.5rem 1.188rem;
+        display: inline-block;
+        font-size: $font-size-normal;
+        border: none;
+        border-radius: 2.125rem;
+        color: $color-black;
+        background-color: $typecategoy-bg;
+        margin-right: 0.625rem;
+        margin-bottom: 0.625rem;
+        a {
+            color: $color-black;
+        }
+        .close {
+            margin-left: 1rem;
+        }
+    }
+}
+.mf-filter-wrapper {
+    .nav {
+        .nav-link {
+            position: relative;
+            .icon-wrapper {
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+    ul {
+        border: none;
+    }
+}
+.search-container {
+    input {
+        box-shadow: 0 0 0 0.2pt $searchinputbg;
+        border: 0.063rem solid $about-us-bg !important;
+        padding: 0.375rem 0.625rem 0.375rem 2.625rem !important;
+        transition: all .3s;
+        font-size: $font-size-normal;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTEiIGN5PSIxMSIgcj0iOCIvPjxwYXRoIGQ9Ik0yMSAyMWwtNC00Ii8+PC9zdmc+);
+        background-repeat: no-repeat;
+        background-position: 0.75rem;
+        margin-bottom: 0 !important;
+        border-radius: 1.75rem;
+        height: 2.188rem;
+        width: 100%;
+    }
+    &:focus {
+        width: 7.5rem;
+    }
+}
+.explore-main {
+    height: 100%;
+    overflow: hidden;
+    .filtered-fund-list {
+        height: 15.625rem;
+        max-height: 15.625rem;
+        overflow: auto;
+        .fund-detail {
+            list-style-type: none;
+            padding: 0.75rem 0.313rem 0.75rem 0.313rem;
+            margin-bottom: 0;
+            border-bottom: 0.063rem solid $about-us-bg;
+            .fund-image {
+                padding-top: 0.438rem;
+                img {
+                    width: 2.625rem;
+                    height: 2.625rem;
+                }
+                svg {
+                    width: 3.75rem;
+                    height: 3.75rem;
+                }
+            }
+            .fund-data-container {
+                padding-left: 0.625rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                width: 100%;
+                height: auto;
+                .fund-name {
+                    padding: 0.313rem 0;
+                    a {
+                        cursor: pointer;
+                        float: none;
+                        color: $black-two;
+                    }
+                    span {
+                        font-size: $font-size-body;
+                    }
+                }
+                .fund-additional-details {
+                    .aum {
+                        color: $row-thumb;
+                        font-size: $font-size-small;
+                    }
+                    .aum-value {
+                        margin-left: 0.313rem;
+                        font-size: $font-size-small;
+                    }
+                    .dividend {
+                        margin-left: 0.938rem;
+                        font-size: $font-size-small;
+                    }
+                    .scheme {
+                        margin-left: 0.938rem;
+                        font-size: $font-size-small;
+                    }
+                    .sub-scheme {
+                        margin-left: 0.938rem;
+                        font-size: $font-size-small;
+                    }
+                }
+            }
+            .watchlist {
+                width: 12.5rem;
+                border-radius: 1.25rem;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding-right: 0.625rem;
+                color: $blue-two;
+                cursor: pointer;
+                span {
+                    color: $blue-two;
+                }
+            }
+        }
+    }
+}
+.fund-image {
+    svg {
+        width: 5rem;
+    }
+}
+.fund-name {
+    a {
+        font-size: $font-size-18;
+        font-weight: 500;
+    }
+}
+.fund-additional-details {
+    span {
+        font-size: $font-size-normal;
+        margin-right: 0.625rem;
+    }
+}
+.boxcard {
+    margin-top: 1.25rem;
+    padding: 1.25rem 1.875rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 0.313rem;
+    background: $lineargradient-6;
+    border: 0.063rem solid $color-white;
+    box-shadow: $box-shadow-24;
+    border-radius: 0.313rem;
+    .nav {
+        display: flexs;
+    }
+    .box-details {
+        padding-left: 1rem;
+    }
+    .select-year {
+        font-size: 0.688rem;
+        margin: 0 0 0 2rem;
+    }
+}
+.grey-box {
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+    background: $lineargradient-7;
+    border: 0.063rem solid $color-white;
+    border-radius: 0.313rem;
+    .row-one {
+        display: flex;
+    }
+    @media (min-width: 550px) {
+        .column,
+        .columns {
+            margin-left: 4%;
+        }
+        .seven.columns {
+            width: 56.6666666667%;
+        }
+        .column:first-child,
+        .columns:first-child {
+            margin-left: 0;
+        }
+        .five.columns {
+            width: 39.3333333333%;
+        }
+        .column,
+        .columns {
+            margin-left: 4%;
+        }
+        .font-14 {
+            font-size: $font-size-normal;
+        }
+        .wishlist-heart {
+            path {
+                fill: $primary-color;
+            }
+        }
+        .compareproduct {
+            padding-right: 0.625rem;
+        }
+    }
+}
+.fund-btn {
+    border-radius: 3rem !important;
+    padding: 0.5rem 3.125rem !important;
+    border: 0.063rem solid;
+    font-size: $font-size-18;
+    font-weight: $font-weight-body;
+    background-color: $primary-color !important;
+    color: $color-white !important;
+}
+.scheme-categories-wrapper {
+    .scheme-categories {
+        padding: 1.125rem 1.25rem;
+        width: 100%;
+        text-align: center;
+        // vertical-align: middle;
+        display: block;
+        align-items: center;
+        margin: 0 0.5rem 0.625rem 0;
+        background: $scheme-categories-bg;
+        border-radius: 0.313rem;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: $font-size-18;
+        // -webkit-user-select: none;
+        transition: ease-in-out 0.5s;
+    }
+    &:hover {
+        .scheme-categories {
+            background-color: $primary-color;
+            color: $color-white;
+        }
+    }
+}
+.content-box-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.75rem 1.25rem;
+    border-bottom: 0.063rem solid $boder-three;
+    .content-box-img {
+        width: 9.375rem;
+        margin-right: 0.938rem;
+        svg {
+            width: 9.375rem;
+        }
+    }
+    .content-box-details {
+        display: flex;
+        flex-direction: column;
+        .content-box-title {
+            color: $label-text-color;
+        }
+        .content-box-desc {
+            font-size: $font-size-small;
+        }
+    }
+    &:last-child {
+        border-bottom: none;
+    }
+}
+.fund-description {
+    margin-top: 2.125rem !important;
+    margin-bottom: 0.438rem;
+    border-top: 0.063rem solid $table-border-color;
+    border-bottom: 0.063rem solid $table-border-color;
+    padding: 2.5rem;
+}
+.holding-allocation-table.table-responsive {
+    margin-top: 0;
+    // position: relative;
+}
+.holding-allocation-table table {
+    border: none !important;
+    padding: 0.625rem;
+}
+.holding-allocation-table table tr td:nth-child(n+3) {
+    border: 0;
+    width: 25%;
+}
+.holding-allocation-table table td,
+.holding-allocation-table table th {
+    padding: 0.75rem 0.938rem 0.75rem 0 !important;
+    border: none;
+}
+.holding-allocation-table {
+    padding: 2.5rem;
+    border: 0.063rem solid $modal-border-content;
+    border-radius: 0.5rem;
+}
+.holding-title-wrapper {
+    position: absolute;
+    top: -1.063rem;
+    left: 1.875rem;
+    background-color: $modal-border-content;
+    border-radius: 0.5rem;
+}
+.holding-title {
+    padding: 0.5rem 0.625rem;
+    display: inline-block;
+    margin: 0;
+}
+.scheme-doc {
+    background-color: $tabpanebg;
+    padding: 2.25rem;
+}
+.scheme-document-link {
+    padding: 0.938rem 1.25rem;
+    color: $main-tab-icon-border;
+    margin: 0;
+}
+.wishlist-heart {
+    margin-right: 0.625rem;
+    path {
+        fill: $error-alert;
+    }
+}
+.compareproduct {
+    margin-right: 0.625rem;
+    .compare_svg__cls-1 {
+        fill: $error-alert;
+    }
+}
+.wishlist-btn {
+    border: transparent !important;
+    &:hover {
+        border: transparent !important;
+    }
+}
+.compare-btn {
+    border: transparent !important;
+    &:hover {
+        border: transparent !important;
+    }
+}
+.border-top {
+    border-top: 0.063rem solid $table-border-color;
+}
+.modal-wrapper {
+    background: $color-white;
+    box-shadow: $box-shadow-25;
+    border-radius: 0.313rem;
+}
+//empty wishlist
+.emptywishlist {
+    padding: 2.5rem 0;
+}
+.modal-wrapper {
+    background: rgba(0, 0, 0, .2);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-perspective: 62.5rem;
+    perspective: 62.5rem;
+    background: rgba(255, 255, 255, 0.8) !important;
+    transition: transform .3s ease-out;
+    transform: translate(0, -3.125rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .modal-content {
+        width: 70%;
+        height: 50%;
+        background: $color-white;
+        box-shadow: $box-shadow-25;
+        border-radius: 0.313rem;
+    }
+}
+.wishlist-logo-wrapper {
+    padding: 1.563rem;
+    .wishlist-logo {
+        svg {
+            width: 2.5rem;
+            height: 2.313rem;
+            path {
+                fill: $error-alert;
+                width: 2.5rem;
+                height: 2.313rem;
+            }
+        }
+    }
+}
+.emptywishlist-title {
+    font-size: 1.25rem;
+    line-height: 100%;
+    color: $color-grey-two;
+}
+.emptywishlist-add-btn {
+    border: none;
+    background: none;
+    color: $blue-three;
+}
+.wishlist-details {
+    .table {
+        border: none !important;
+        tr {
+            border-bottom: 0.063rem solid rgba(219, 219, 219, 1);
+        }
+        th {
+            background-color: $color-white;
+            text-align: left !important;
+            border: none !important;
+            border-bottom: 0.063rem solid rgba(219, 219, 219, 1);
+        }
+        td {
+            text-align: center;
+            vertical-align: middle;
+            border: none !important;
+        }
+        figure {
+            width: 2.313rem;
+            height: 2.313rem;
+            background: $typecategoy-bg;
+            border: 0.125rem solid $color-cyan-three;
+            border-radius: 50%;
+            margin: 0;
+            margin-right: 0.625rem;
+        }
+    }
+}
+.warning-wrapper {
+    margin-top: 0.75rem;
+}
+.warining-content {
+    background: $light-yellow;
+    border-radius: 3.125rem;
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 1.875rem;
+    p {
+        padding-left: 0.938rem;
+        padding-right: 0.938rem;
+        word-wrap: break-word;
+    }
+}
+.update-client-wrapper {
+    .custom-btn-outline {
+        display: flex;
+        svg {
+            margin: 0;
+            margin-right: 0.625rem;
+        }
+    }
+}

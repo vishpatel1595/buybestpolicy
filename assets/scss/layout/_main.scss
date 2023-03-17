@@ -1,0 +1,1691 @@
+// .p-sm-2 {
+//     @media (max-width:767px) {
+//         padding: 1.5rem;
+//     }
+// }
+
+// .pb-sm-2 {
+//     @media (max-width:767px) {
+//         padding: 0 0 1.5rem 0 !important;
+//     }
+// }
+
+// // main-wrapper
+// .main-wrapper {
+//     padding: 5rem 0;
+
+//     @media (max-width:991px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .main-wrapper-app {
+//     padding: 1.25rem 0;
+// }
+
+// main {
+//     width: 100%;
+
+//     .credential-section {
+//         background-image: url("../web-asset/images/shield-border\ 1.png");
+//         background-repeat: no-repeat;
+//         background-size: contain;
+//         background-position-x: right;
+//         background-position-y: center;
+//         margin: 0 auto;
+
+//         .credential-card {
+//             background: $color-white;
+//             border: 0.125rem solid $credcard-bg;
+//             box-shadow: $box-shadow-16;
+//             border-radius: 0.938rem;
+//             padding: 5rem 1.875rem;
+//             display: flex;
+//             flex-direction: row;
+
+//             .forget-pwd {
+//                 color: $global-font-color;
+
+//                 .icon {
+//                     color: $primary-color;
+//                 }
+//             }
+
+//             .credential-button {
+//                 background: $primary-color;
+//                 color: $color-white;
+//                 padding: 0.688rem 1.063rem;
+//                 outline: none;
+
+//                 &:focus,
+//                 &:hover {
+//                     outline: none;
+//                 }
+//             }
+
+//             .credential-link {
+//                 color: $primary-color;
+//             }
+
+//             .otp-number-input {
+//                 line-height: 5rem;
+//                 font-size: 3.125rem;
+//                 outline: none;
+//                 width: 15%;
+//                 transition: all .2s ease-in-out;
+//                 margin-bottom: 2rem;
+//                 background: $color-white;
+//                 border: 0.063rem solid $otp-border;
+//                 box-shadow: $box-shadow-17;
+//                 border-radius: 0.188rem;
+//                 caret-color: transparent;
+
+//                 &::selection {
+//                     background: transparent;
+//                 }
+//             }
+//         }
+
+//         .signup-card {
+//             padding: 2.813rem 1.875rem;
+//         }
+//     }
+
+//     .hero-section {
+//         .slider-bg {
+//             width: 100%;
+//             height: 100%;
+//             background-image: url("../web-asset/images/herobg.png");
+//             background-size: cover;
+//             background-repeat: no-repeat;
+//             background-clip: content-box;
+
+//             .hero-title-1 {
+//                 font-size: 4.375rem;
+//                 line-height: 5.125rem;
+//                 font-weight: $font-weight-bold;
+//                 color: $global-font-title;
+//                 margin: 0;
+//             }
+
+//             .hero-title-2 {
+//                 font-weight: $font-weight-regular;
+//                 font-size: 2.375rem;
+//                 line-height: 2.813rem;
+//                 margin: 0
+//             }
+
+//             .hero-title-3 {
+//                 font-weight: $font-weight-regular;
+//                 font-size: 1.5rem;
+//                 line-height: 1.75rem;
+//                 color: $global-secondary-color;
+//                 margin: 0
+//             }
+
+//             .hero-title-4 {
+//                 font-weight: $font-weight-bold;
+//                 font-size: 4.375rem;
+//                 line-height: 5.125rem;
+//                 color: $global-secondary-color;
+//                 margin: 0
+//             }
+
+//             .hero-img {
+//                 max-width: 33.5rem;
+//                 max-height: 36.938rem;
+//                 margin: 0 auto;
+//             }
+//         }
+//     }
+
+//     .why-investment-section {
+//         position: relative;
+//         background: $lineargradient-8;
+//         padding: 5rem 0;
+
+//         @media (max-width:991px) {
+//             padding: 2.5rem 0;
+//         }
+//     }
+
+//     .investement-section {
+//         position: absolute;
+//         bottom: -1.875rem;
+//         background: $modal-border-content;
+//         border-radius: 2.5rem;
+//         padding: 0.688rem 0.625rem;
+
+//         @media (max-width:768px) {
+//             position: unset;
+//             bottom: unset;
+//             margin-top: 1.25rem;
+//             margin-bottom: 1.25rem;
+
+//             h4 {
+//                 text-align: center;
+//             }
+//         }
+//     }
+
+//     .card-section {
+//         padding: 5rem 0;
+
+//         @media (max-width:768px) {
+//             padding: 2.5rem 0;
+//         }
+
+//         .card {
+//             display: flex;
+//             border: none;
+//             align-items: center;
+
+//             .card-img {
+//                 max-width: 11.875rem;
+//             }
+
+//             .card-body {
+//                 width: unset;
+
+//                 button {
+//                     width: max-content;
+//                     border-radius: 0.313rem;
+//                     background-color: $global-secondary-color;
+//                     color: $color-white;
+//                 }
+//             }
+
+//             @media (max-width:768px) {
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+
+//                 .card-img-wrapper {
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+//                 }
+
+//                 .card-body-wrapper {
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+
+//                     .card-body {
+//                         display: flex;
+//                         justify-content: center;
+//                         align-items: center;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .about-us-section {
+//         height: 100%;
+//         width: 100%;
+//         background: $about-us-bg;
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//         background-clip: content-box;
+//     }
+
+//     .spacing-x {
+//         padding: 5rem 0;
+
+//         @media (max-width:768px) {
+//             padding: 2.5rem 0;
+//         }
+//     }
+
+//     .need-help-section {
+//         height: 100%;
+//         width: 100%;
+//         background: rgba(205, 16, 11, 0.14);
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//         background-clip: content-box;
+
+//         .container {
+//             padding: 2.188rem 0;
+
+//             .help-img {
+//                 width: 25rem;
+//             }
+//         }
+//     }
+
+//     .upcoming-news-ipo-section {
+//         padding: 5rem 0;
+
+//         @media (max-width:768px) {
+//             padding: 2.5rem 0;
+//         }
+
+//         h5 {
+//             font-size: 1.5rem !important;
+//         }
+
+//         .ipo-wrapper {
+//             width: 100%;
+//             height: 100%;
+//             background-image: url("../web-asset/images/opening-ipo-high.png");
+//             background-size: contain;
+//             background-repeat: no-repeat;
+//             padding: 0.625rem;
+//             background-color: $ipo-bg;
+//             padding: 1.125rem 1rem;
+
+//             .ipo-title {
+//                 font-weight: $font-weight-semi-bold;
+//             }
+//         }
+
+//         .ipo-img {
+//             width: 10rem;
+//             height: 10rem;
+//             border-radius: 50%;
+//         }
+//     }
+
+//     .news-title {
+//         font-weight: $font-weight-semi-bold;
+//         font-size: 1.5rem;
+//         line-height: 1.75rem;
+//         text-align: start;
+//         color: $global-font-title;
+//         text-transform: uppercase;
+//     }
+
+//     .new-report-wrapper {
+//         .card {
+//             border: none;
+
+//             .newsreport-img {
+//                 max-width: 13.125rem;
+//                 max-height: 13.125rem;
+//             }
+//         }
+//     }
+
+//     .client-section {
+//         width: 100%;
+//         height: 100%;
+//         background-image: url("../web-asset/images/client-detail-bg.png");
+//         background-repeat: no-repeat;
+//         background-size: cover;
+
+//         .client-content-wrapper {
+//             position: relative;
+
+//             .swiper-slide {
+//                 background: none !important;
+//                 position: relative;
+//             }
+
+//             .client-card-wrapper {
+//                 border-radius: 0.938rem;
+//                 padding: 5rem 0 2.5rem 0;
+//                 margin: 6.25rem 0;
+//                 background: $color-white;
+
+//                 .card {
+//                     padding: 0 3.125rem;
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+//                     position: unset;
+
+//                     .client-img {
+//                         position: absolute;
+//                         top: 8%;
+//                         margin: 0 auto;
+//                         width: 7.938rem;
+//                         height: 7.938rem;
+//                         border-radius: 50%;
+//                         background: $modal-border-content;
+//                         border: 0.375rem solid $color-white;
+//                     }
+//                 }
+//             }
+
+//             .img-slide-wrapper {
+//                 position: absolute;
+//                 right: -12%;
+//                 top: 13%;
+//                 z-index: 1;
+
+//                 @media (max-width: 767px) {
+//                     display: none;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .financial-tool-section {
+//     padding: 5rem 0;
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+
+//     .financial-tool-card {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         padding: 0.625rem;
+//         border: 0;
+//         cursor: pointer;
+
+//         .finance-tool-title {
+//             color: $global-font-color;
+
+//             &:hover {
+//                 color: $primary-color;
+//             }
+//         }
+
+//         &:hover {
+//             background-color: $finance-hover-bg;
+
+//             .finance-tool-title {
+//                 color: $primary-color;
+//             }
+//         }
+//     }
+// }
+
+// // about us
+// .breadcrumb-wrapper {
+//     background-image: url("../web-asset/images/about-us-breadcrumb.png");
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     padding: 3.125rem 0;
+
+//     .breadcrumb-title {
+//         color: $color-white;
+//     }
+
+//     .breadcrumb-text {
+//         color: $color-white;
+//         padding: 0.625rem;
+//         line-height: 1.75rem;
+//         text-align: center;
+//         vertical-align: middle;
+//         position: relative;
+
+//         &::after {
+//             content: "";
+//             position: absolute;
+//             right: 0;
+//             translate: (0 50%);
+//             width: 0.063rem;
+//             height: 0.938rem;
+//             color: red;
+//             background-color: $color-white;
+//         }
+
+//         &:last-child::after {
+//             content: "";
+//             display: none;
+//         }
+//     }
+// }
+
+// // overview section
+// .overview-section {
+//     padding: 5rem 0;
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .our-goals-section {
+//     background: $ourgoalbg;
+//     padding: 5rem 0;
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+
+//     .goal-img {
+//         margin-right: 0.625rem;
+//     }
+
+//     .card {
+//         background: transparent;
+//         border: none;
+//     }
+
+//     .goal-title {
+//         font-weight: $font-weight-semi-bold;
+//         font-size: $font-size-h5;
+//         line-height: $font-line-height-h5;
+//         color: $global-font-title;
+//     }
+// }
+
+// .responsibility-section {
+//     padding: 2.813rem 0;
+//     background: rgba(207, 230, 251, 1);
+//     background-blend-mode: luminosity;
+
+//     .responsibility-title {
+//         font-weight: $font-weight-h4;
+//         font-size: $font-size-h4;
+//         line-height: $font-line-height-h4;
+//         text-transform: uppercase;
+//         color: $responsibility-title-color;
+//     }
+
+//     figure {
+//         background-blend-mode: luminosity;
+
+//         img {
+//             background-blend-mode: luminosity;
+//         }
+//     }
+// }
+
+// .mission-principle-section {
+//     padding: 5rem 0;
+//     background-color: $mission-bg;
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+
+//     .mission-card {
+//         background: $color-white;
+//         box-shadow: $box-shadow-18;
+//         border-radius: 1rem;
+//         border: none;
+//         height: 100%;
+//         margin-bottom: 0.938rem;
+//         cursor: pointer;
+
+//         .card-header {
+//             padding: 1.875rem 0;
+//             background: transparent;
+//             border-top-left-radius: 1rem;
+//             border-top-right-radius: 1rem;
+//             position: relative;
+
+//             .card-title {
+//                 font-weight: $font-weight-semi-bold;
+//                 font-size: $font-size-h5;
+//                 line-height: 1.438rem;
+//                 text-align: center;
+//                 padding: 0 1rem;
+//                 height: 100%;
+//                 color: $primary-color;
+//             }
+
+//             .sheild-wrapper {
+//                 svg {
+//                     position: absolute;
+//                     right: 0;
+//                     top: 10%;
+
+//                     path {
+//                         fill: $responsibility-title-color;
+//                     }
+//                 }
+//             }
+//         }
+
+//         .card-body {
+//             .card-text {
+//                 font-size: $font-size-normal;
+//                 text-align: justify;
+//                 padding: 0;
+//             }
+//         }
+
+//         &:hover {
+//             background: rgba(242, 78, 30, 0.2);
+
+//             .sheild-wrapper {
+//                 svg {
+//                     path {
+//                         fill: $color-white;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     @media screen and (min-width:421px) and (max-width:575px) {
+//         .responsive-width {
+//             width: 70% !important;
+//         }
+//     }
+// }
+
+// .our-compliment-section {
+//     padding: 5rem 0;
+
+//     .compliment-body {
+//         margin-top: 1.875rem;
+
+//         .card {
+//             background: none;
+//             border: none;
+
+//             .card-header {
+//                 background: none;
+//                 border: none;
+//                 padding-bottom: 0;
+
+//                 .card-title {
+//                     margin-bottom: 0;
+//                     color: $responsibility-title-color;
+//                 }
+//             }
+//         }
+//     }
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .our-history-section {
+//     background: url("../web-asset/images/our-history1.png");
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     padding: 1.25rem 0 1.25rem 0;
+
+//     .font-title-1 {
+//         font-weight: 300;
+//         font-size: 6.188rem;
+//         line-height: 6.875rem;
+//         text-transform: uppercase;
+//         color: $color-cyan-light;
+//         margin: 0;
+
+//         @media (max-width:768px) {
+//             font-size: 2.5rem;
+//             line-height: 2.5rem;
+//         }
+//     }
+
+//     .font-title-2 {
+//         font-weight: 800;
+//         font-size: 4.563rem;
+//         line-height: 1.5rem;
+//         text-transform: uppercase;
+//         color: $responsibility-title-color;
+//         margin: 0;
+
+//         @media (max-width:768px) {
+//             font-size: 2.188rem;
+//             line-height: 2.5rem;
+//         }
+//     }
+
+//     .font-title-3 {
+//         font-weight: $font-weight-bold;
+//         font-size: 5.688rem;
+//         line-height: 6.688rem;
+//         text-transform: uppercase;
+//         color: $font-title-3-color;
+//         margin: 0;
+
+//         @media (max-width:768px) {
+//             font-size: 2.5rem;
+//             line-height: 2.5rem;
+//         }
+//     }
+
+//     .history-card {
+//         background: transparent;
+//         border: none;
+
+//         .card-header {
+//             background: transparent;
+//             border: none;
+//         }
+//     }
+
+//     .history-title {
+//         color: $primary-color;
+//     }
+// }
+
+// // responsive
+// .img-slide-wrapper {
+//     @media (max-width: 767px) {
+//         .img-slide-wrapper {
+//             display: none;
+//         }
+//     }
+// }
+
+// /*************************
+//  ********mutual Fund******
+//  *************************/
+// .mutual-fund-wrapper {
+//     background: url("../web-asset/images/mutual-fund1.png");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     padding: 6.25rem 0;
+
+//     ul.mutual-fund-hero-content {
+//         margin: 0;
+//         padding: 0;
+
+//         li {
+//             .mutual-icon {
+//                 margin-right: 0.938rem;
+//                 color: $primary-color;
+//             }
+
+//             .mutual-text {
+//                 font-size: $font-size-h5;
+//             }
+//         }
+//     }
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .top-mutual-fund-section {
+//     padding: 5rem 0;
+
+//     .top-mutual-fund-tabs {
+//         .nav-item {
+//             margin: 00.625rem;
+
+//             .nav-btn {
+//                 background-color: $color-white;
+//                 padding: 0.438rem 0.625rem;
+//                 border: 0.063rem solid $color-active;
+//                 border-radius: 0.25rem;
+
+//                 &.active {
+//                     background: $modal-border-content;
+//                 }
+//             }
+//         }
+
+//         .table-responsive {
+//             padding: 0 0;
+//             border-radius: 0.5rem;
+//             max-height: 31.25rem;
+
+//             .table {
+//                 border-radius: 0.5rem;
+//                 background: $color-white;
+//                 border: 0.063rem solid $modal-border-content;
+//                 box-shadow: $box-shadow-19;
+//                 border-radius: 0.5rem;
+
+//                 /* custom scroll */
+//                 // width /
+//                 ::-webkit-scrollbar {
+//                     width: 0.313rem;
+//                     height: 0.625em;
+//                 }
+
+//                 // Track /
+//                 ::-webkit-scrollbar-track {
+//                     box-shadow: inset 0 0 0.313rem $scroll-track;
+//                     border-radius: 0.625em;
+//                 }
+
+//                 // Handle /
+//                 ::-webkit-scrollbar-thumb {
+//                     background: $scroll-thumb;
+//                     border-radius: 0.625em;
+//                 }
+
+//                 // Handle on hover */
+//                 ::-webkit-scrollbar-thumb:hover {
+//                     background: $scroll-thumb-hover;
+//                 }
+
+//                 thead {
+//                     tr {
+//                         border-radius: 0.25rem 0.25rem 0 0;
+//                         border: none;
+
+//                         th {
+//                             padding: 0.625rem 1.125rem;
+//                             background-color: $table-th-bg-color;
+//                             font-size: $font-size-normal;
+//                             font-weight: $font-weight-medium;
+//                             border: none;
+
+//                             &:first-child {
+//                                 border-radius: 0.25rem 0 0 0;
+//                             }
+
+//                             &:last-child {
+//                                 border-radius: 0 0.25rem 0 0;
+//                             }
+//                         }
+//                     }
+//                 }
+
+//                 tr {
+//                     border-bottom: 0.063rem solid $table-th-bg-color;
+//                 }
+
+//                 th {
+//                     border: none;
+//                 }
+
+//                 td {
+//                     font-size: $font-size-small;
+//                     text-align: center;
+//                     vertical-align: middle;
+//                     border: none;
+//                     padding: 0.625rem;
+//                     white-space: nowrap;
+//                 }
+//             }
+//         }
+
+//         .fund-detail-wrapper {
+//             display: flex;
+
+//             .fund-img-wrapper {
+//                 width: 2.5rem;
+//                 height: 2.5rem;
+//                 margin-right: 0.625rem;
+//             }
+
+//             .fund-name {
+//                 margin: 0;
+//                 font-size: $font-size-normal;
+//                 font-weight: $font-weight-medium;
+//                 text-align: start;
+//                 white-space: nowrap;
+//             }
+
+//             .fund-type {
+//                 margin: 0;
+//                 font-size: $font-size-small;
+//                 text-align: start;
+//             }
+//         }
+//     }
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .insight-content-wrapper {
+//     @media (max-width:767px) {
+//         margin-top: 0.938rem !important;
+//     }
+// }
+
+// .insight-title {
+//     font-weight: $font-weight-bold;
+//     font-size: $font-size-body;
+//     text-align: justify;
+//     text-transform: uppercase;
+//     color: $global-font-color;
+// }
+
+// .insight-content {
+//     padding: 0 1rem;
+//     overflow-y: auto;
+//     max-height: 31.25rem;
+
+//     li {
+//         display: flex;
+//         justify-content: start;
+//         align-items: flex-start;
+
+//         p.insight-icon {
+//             margin-top: 0.313rem;
+//             color: $error-alert;
+//         }
+//     }
+// }
+
+// .top-plans-section {
+//     background-color: rgba(237, 237, 237, 0.45);
+//     padding: 5rem 0;
+
+//     .card-wrapper {
+//         width: 100%;
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: nowrap;
+
+//         .swiper-slide {
+//             background: transparent;
+//         }
+
+//         .top-investment {
+//             background: $color-white;
+//             border: 0.063rem solid $card-btn-bg-color;
+//             border-radius: 0.313rem;
+//             position: relative;
+//             z-index: 2;
+//             margin-top: 2rem;
+//             margin-bottom: 2rem;
+//             height: 100%;
+
+//             @media (min-width:991px) {
+//                 max-width: 25rem;
+//             }
+
+//             &::before {
+//                 content: "";
+//                 position: absolute;
+//                 top: -5%;
+//                 left: 0;
+//                 right: 0;
+//                 margin: 0 auto;
+//                 width: 80%;
+//                 height: 110%;
+//                 background: $card-btn-bg-color;
+//                 box-shadow: $box-shadow-20;
+//                 border-radius: 0.938rem;
+//                 z-index: -2;
+//             }
+
+//             .card-header {
+//                 display: flex;
+//                 background: $color-white;
+//                 justify-content: space-between;
+
+//                 .card-title {
+//                     text-align: justify;
+//                     color: $color-dark-blue;
+//                     font-weight: $font-weight-bold;
+//                     padding: 0.625rem 1.063rem;
+//                 }
+
+//                 .shield-content {
+//                     background: url("../web-asset/images/clarity_shield-solid.png");
+//                     background-repeat: no-repeat;
+//                     background-size: cover;
+//                     width: 6.875rem;
+//                     height: 6.875rem;
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+//                     flex-direction: column;
+
+//                     .plan-type-year {
+//                         font-size: 0.625rem;
+//                         font-weight: $font-weight-bold;
+//                         color: $card-plan-color;
+//                         padding: 0;
+//                         margin: 0;
+//                     }
+//                 }
+//             }
+
+//             .card-body {
+//                 background: $color-white;
+
+//                 .card-description {
+//                     font-size: $font-size-body;
+//                     text-align: center;
+//                 }
+
+//                 .fund-img-wrapper {
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+
+//                     .fund-img {
+//                         width: 2rem;
+//                         height: 2rem;
+//                     }
+//                 }
+//             }
+
+//             .card-footer {
+//                 background-color: $color-white;
+//                 padding: 1rem 1rem 3rem 1rem;
+
+//                 .card-icon {
+//                     margin-right: 0.625rem;
+//                     color: $error-alert;
+//                 }
+
+//                 .card-text {
+//                     font-weight: $font-weight-semi-bold;
+//                     font-size: $font-size-normal;
+//                     text-align: justify;
+//                     color: $card-plan-color;
+//                 }
+
+//                 .card-text-year {
+//                     font-size: $font-size-normal;
+//                     color: $card-plan-year-color;
+//                 }
+
+//                 .btn-wrapper {
+//                     height: 30%;
+//                     width: 100%;
+//                     width: 100%;
+//                     display: flex;
+//                     justify-content: center;
+
+//                     button {
+//                         position: absolute;
+//                         bottom: -3rem;
+//                         padding: 0.625rem 1.25rem;
+//                         margin: 0 auto;
+//                         color: $color-dark-blue;
+//                         background: $card-btn-bg-color;
+//                         border-bottom: none;
+//                         border-radius: 0.75rem 0.75rem 0 0;
+//                         font-weight: $font-weight-bold;
+//                         font-size: $font-size-normal;
+//                         line-height: 1rem;
+//                         text-align: justify;
+//                         color: $color-dark-blue;
+//                     }
+//                 }
+//             }
+
+//             @media (min-width:142.5rem) {
+//                 max-width: 25rem;
+//             }
+//         }
+//     }
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .new-fund-section {
+//     padding: 5rem 0;
+
+//     .new-funds-card-wrapper {
+//         flex-wrap: nowrap;
+
+//         .card {
+//             background: none;
+//             border: none;
+//             padding: 1rem;
+//             cursor: pointer;
+
+//             .card-img-wrapper {
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+
+//                 img {
+//                     width: 6.75rem;
+//                     height: 6.75rem;
+//                     border-radius: 50%;
+//                 }
+//             }
+
+//             .card-fund-details {
+//                 margin-top: 1.25rem;
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+
+//                 h6 {
+//                     font-weight: $font-weight-medium;
+//                     font-size: $font-size-normal;
+//                     line-height: 1.25rem;
+//                     text-align: center;
+//                     color: $global-font-color;
+//                 }
+//             }
+
+//             &:hover {
+//                 .card-fund-details {
+//                     h6 {
+//                         color: $primary-color;
+//                     }
+//                 }
+//             }
+
+//             @media (max-width:768px) {
+//                 width: 100%;
+//                 margin: 0;
+//             }
+
+//             &:hover {
+//                 background: $card-fund-hover;
+//                 box-shadow: $box-shadow-21;
+//             }
+//         }
+
+//         .btn-wrapper {
+//             border-radius: 50%;
+//             width: 6.75rem;
+//             height: 6.75rem;
+
+//             .btn-view {
+//                 border-radius: 50%;
+//                 padding: 1.625rem;
+//                 background-color: $modal-border-content;
+//                 border: none;
+//                 font-weight: $font-weight-bold;
+//                 height: 6.75rem;
+//                 width: 6.75rem;
+//                 font-size: 0.813rem;
+//                 line-height: 1.25rem;
+//                 text-align: center;
+//                 color: $global-font-color;
+
+//                 &:hover {
+//                     background-color: $card-fund-hover;
+//                     color: $primary-color;
+//                 }
+
+//                 &:focus {
+//                     outline: none;
+//                     box-shadow: none;
+//                     border: none;
+//                 }
+//             }
+//         }
+//     }
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .new-funds-list {
+//     overflow-y: auto;
+//     height: 23.375rem;
+
+//     .news-card {
+//         background: $news-card-bg;
+//         border-radius: 0.938rem;
+//         padding: 0.938rem;
+//         display: flex;
+//         flex-direction: row;
+//         margin-bottom: 0.938rem;
+//         cursor: pointer;
+
+//         @media (max-width:768px) {
+//             flex-wrap: wrap;
+//         }
+
+//         .card-img {
+//             width: 3.75rem;
+//             height: 3.75rem;
+//             border-radius: 0.313rem;
+//             margin-right: 0.938rem;
+//         }
+
+//         .card-content {
+//             .card-title {
+//                 font-size: $font-size-normal;
+//                 font-weight: $font-weight-bold;
+//                 line-height: 1rem;
+//                 text-align: justify;
+//                 text-transform: uppercase;
+//                 color: $color-dark-blue;
+//                 padding-right: 4rem;
+//             }
+
+//             .card-msg {
+//                 font-weight: $font-weight-regular;
+//                 font-size: $font-size-small;
+//                 line-height: 0.875rem;
+//                 text-align: justify;
+//             }
+
+//             .card-data {
+//                 font-weight: $font-weight-regular;
+//                 font-size: $font-size-small;
+//                 line-height: 0.875rem;
+//                 text-align: justify;
+//             }
+
+//             @media (max-width:768px) {
+//                 margin-left: 0;
+
+//                 .card-title {
+//                     margin-top: 1rem;
+//                     padding-right: 3.125rem;
+//                     margin-left: 0;
+//                 }
+//             }
+//         }
+
+//         .fund-status {
+//             background: $global-font-title;
+//             border-radius: 0.188rem;
+//             padding: 0.063rem 0.563rem;
+//             position: absolute;
+//             right: 0.938rem;
+
+//             .fund-status-title {
+//                 font-style: normal;
+//                 font-weight: $font-weight-medium;
+//                 font-size: $font-size-small;
+//                 line-height: 0.875rem;
+//                 text-align: justify;
+//                 color: $color-white;
+//                 margin-left: 0;
+//             }
+
+//             p {
+//                 padding: 0;
+//                 margin: 0;
+//             }
+//         }
+
+//         &:hover {
+//             box-shadow: $box-shadow-21;
+//         }
+//     }
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .Nfo-section {
+//     background: $nfo-bg;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     padding: 5rem 0;
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .learn-more-section {
+//     padding: 5rem 0;
+
+//     .card {
+//         box-shadow: $box-shadow-22;
+//         background: none;
+//         border-radius: $border-radius;
+//         padding: 1.75rem;
+//         border: none;
+//         width: 100%;
+//         cursor: pointer;
+
+//         .card-title {
+//             font-weight: $font-weight-bold;
+//             margin-bottom: 2rem;
+//         }
+
+//         figure {
+//             margin: 0;
+//             display: flex;
+//             justify-content: flex-end;
+//         }
+
+//         &:hover {
+//             background: rgba(242, 78, 30, 0.3);
+//         }
+//     }
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .mutual-detail-data {
+//     padding: 5rem 0;
+
+//     .mutual-tabs-vertical {
+//         border: 0.063rem solid $primary-color;
+//         border-radius: 0.75rem;
+
+//         .tab-content {
+//             padding: 1rem;
+//             height: 100%;
+//             width: 80%;
+
+//             .tab-pane {
+//                 height: 100%;
+//                 width: 100%;
+//             }
+//         }
+//     }
+
+//     @media (max-width:768px) {
+//         padding: 2.5rem 0;
+//     }
+// }
+
+// .tab-accordian-tab {
+//     padding: 5rem 0;
+
+//     .accordion-tabs {
+//         display: none;
+//     }
+
+//     .accordion-tabs:focus {
+//         outline: none;
+//     }
+
+//     .accordion-item {
+//         border-bottom: 0.063rem solid $accordian-item-border;
+//     }
+
+//     .accordion-item:last-child {
+//         border: none;
+//     }
+
+//     .accordion-item__label {
+//         margin: 0;
+//         padding: 1.25rem;
+//         cursor: pointer;
+//         transition: padding 0.2s ease;
+//         position: relative;
+//     }
+
+//     .accordion-item__label:after {
+//         content: "";
+//         height: 0.25rem;
+//         width: 0.25rem;
+//         position: absolute;
+//         top: -0.25rem;
+//         right: 1.25rem;
+//         bottom: 0;
+//         margin: auto;
+//         border: 0.188rem solid transparent;
+//         border-radius: 0.25rem;
+//         transform: rotate(45deg);
+//         border-color: transparent #447fff #447fff transparent;
+//         opacity: 1;
+//         transition: opacity 0.1s ease;
+//     }
+
+//     .accordion-item__container {
+//         padding: 0 1.25em;
+//         height: 0;
+//         overflow: hidden;
+//         opacity: 0;
+//         transition: padding 0.2s ease, opacity 0.5s 0.15s ease;
+//     }
+
+//     .accordion-active .accordion-item__label {
+//         padding-bottom: 0;
+//         cursor: inherit;
+//     }
+
+//     .accordion-active .accordion-item__label:hover {
+//         background: none;
+//     }
+
+//     .accordion-active .accordion-item__label:after {
+//         opacity: 0;
+//     }
+
+//     .accordion-active .accordion-item__container {
+//         padding: 1.25em;
+//         height: auto;
+//         opacity: 1;
+//     }
+
+//     .accordion-active .accordion-item__container p:first-child,
+//     .accordion-active .accordion-item__container h1:first-child,
+//     .accordion-active .accordion-item__container h2:first-child,
+//     .accordion-active .accordion-item__container h3:first-child,
+//     .accordion-active .accordion-item__container h4:first-child,
+//     .accordion-active .accordion-item__container h5:first-child,
+//     .accordion-active .accordion-item__container h6:first-child {
+//         margin-top: 0;
+//     }
+
+//     .accordion-active .accordion-item__container p:last-child,
+//     .accordion-active .accordion-item__container h1:last-child,
+//     .accordion-active .accordion-item__container h2:last-child,
+//     .accordion-active .accordion-item__container h3:last-child,
+//     .accordion-active .accordion-item__container h4:last-child,
+//     .accordion-active .accordion-item__container h5:last-child,
+//     .accordion-active .accordion-item__container h6:last-child {
+//         margin-bottom: 0;
+//     }
+
+//     .accordion-tab.btn:focus {
+//         box-shadow: none !important;
+//     }
+
+//     @media (min-width: 600px) {
+//         .accordion {
+//             display: flex;
+//             border: 0.063rem solid $global-font-dark;
+//             border-radius: 0.75rem;
+//             padding: 1.563rem 1rem;
+//         }
+
+//         .accordion-tabs {
+//             display: flex;
+//             background: transparent;
+//             flex-direction: column;
+//             width: 12rem !important;
+//             max-width: 12rem !important;
+//             height: 31.25rem;
+//         }
+
+//         .accordion-content {
+//             width: 100%;
+//         }
+
+//         .accordion-tabs .accordion-tab {
+//             background: transparent;
+//             padding: 0.625rem 1rem 0.625rem 0;
+//             font: inherit;
+//             flex: 1;
+//             border: none;
+//             cursor: pointer;
+//             transition: background 0.1s ease;
+//             font-size: $font-size-body;
+//             font-weight: $font-weight-bold;
+//             text-align: start;
+//         }
+
+//         .accordion-tabs .accordion-tab:last-child {
+//             border-right: 0;
+//         }
+
+//         .accordion-item {
+//             padding: 2.4rem;
+//             display: none;
+//             border: none;
+//             min-height: 16.25rem;
+//         }
+
+//         .accordion-item__label,
+//         .accordion-item__container {
+//             padding: 0;
+//             transition: inherit;
+//         }
+
+//         .accordion-item__label {
+//             margin-bottom: 1.5rem;
+//         }
+
+//         .accordion-item.accordion-active {
+//             display: block;
+//         }
+
+//         .accordion-item.accordion-active .accordion-item__container {
+//             padding: 0;
+//         }
+//     }
+
+//     .accordion-tab {
+//         display: block;
+//         position: relative;
+//         padding-bottom: 0.438rem;
+//         cursor: pointer;
+//         color: $global-font-color;
+//         font-weight: $font-weight-bold;
+//     }
+
+//     .accordion-tab:before {
+//         content: "";
+//         display: block;
+//         position: absolute;
+//         left: 0;
+//         bottom: 0;
+//         height: 0.125rem;
+//         width: 0;
+//         transition: width 0s ease, background 0.5s ease;
+//     }
+
+//     .accordion-tab:after {
+//         content: "";
+//         display: block;
+//         position: absolute;
+//         right: 0;
+//         bottom: 0;
+//         height: 0.125rem;
+//         width: 0;
+//         background: $primary-color;
+//         transition: width 0.5s ease;
+//     }
+
+//     .accordion-tab:hover,
+//     .accordion-tab.accordion-active {
+//         color: $primary-color;
+//     }
+
+//     .accordion-tab:hover:before,
+//     .accordion-tab.accordion-active:before {
+//         width: 100%;
+//         background: $primary-color;
+//         transition: width 0.5s ease;
+//     }
+
+//     .accordion-tab:hover:after {
+//         width: 100%;
+//         background: transparent;
+//         transition: all 0s ease;
+//     }
+
+//     @media (max-width:768px) {
+//         flex-wrap: wrap;
+//     }
+// }
+
+// main .credential-section .credential-card {
+//     background: $color-white;
+//     border: 0.125rem solid $credcard-bg;
+//     box-shadow: $box-shadow-16;
+//     border-radius: 0.938rem;
+//     padding: 5rem 1.875rem;
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// main .credential-section .credential-card .forget-pwd {
+//     color: $global-font-color;
+// }
+
+// main .credential-section .credential-card .forget-pwd .icon {
+//     color: $global-font-title;
+// }
+
+// main .credential-section .credential-card .credential-button {
+//     background: $global-font-title;
+//     color: $color-white;
+//     padding: 0.688rem 1.063rem;
+//     outline: none;
+// }
+
+// main .credential-section .credential-card .credential-button:focus,
+// main .credential-section .credential-card .credential-button:hover {
+//     outline: none;
+// }
+
+// main .credential-section .credential-card .credential-link {
+//     color: $global-font-title;
+// }
+
+// main .credential-section .credential-card .otp-number-input {
+//     line-height: 5rem;
+//     font-size: 3.125rem;
+//     outline: none;
+//     width: 15%;
+//     transition: all 0.2s ease-in-out;
+//     margin-bottom: 2rem;
+//     background: $color-white;
+//     border: 0.063rem solid $otp-border;
+//     box-shadow: $box-shadow-17;
+//     border-radius: 0.188rem;
+//     caret-color: transparent;
+// }
+
+// main .credential-section .credential-card .otp-number-input::-moz-selection {
+//     background: transparent;
+// }
+
+// main .credential-section .credential-card .otp-number-input::selection {
+//     background: transparent;
+// }
+
+// .modal.fade.show {
+//     background: $modal-show !important;
+// }
+
+// @media (min-width: 576px) {
+//     .modal-dialog {
+//         max-width: 60% !important;
+//     }
+// }
+
+// .credential-link {
+//     color: $primary-color;
+// }
+
+// .credential-card {
+//     .forget-pwd {
+//         .icon {
+//             color: $primary-color;
+//         }
+//     }
+// }
+
+.whatweoffersection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 16px;
+    background: url(../web-asset/images/bg-33.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light, normal;
+    border-bottom: 4px solid #00A2FD;
+
+    .swiper-slide {
+        background: transparent;
+        width: 345px !important;
+        height: 476px;
+        margin-left: 15px;
+    }
+}
+
+.pospsection {
+    padding: 80px 16px;
+    border-bottom: 4px solid #6EC829;
+}
+
+.subscribe-section {
+    background: #0C2746;
+    padding: 50px;
+}
+
+.ourinfosection {
+    .company-info-wrapper {
+        background: #F4F4F4;
+        border-radius: 30px 30px 0px 0px;
+        padding: 43px 40px;
+        // box-shadow: ;
+        -webkit-box-shadow: 0px 29px 35px -13px rgba(0, 0, 0, 0.37);
+        -moz-box-shadow: 0px 29px 35px -13px rgba(0, 0, 0, 0.37);
+        box-shadow: 0px 29px 35px -13px rgba(0, 0, 0, 0.37);
+    }
+
+}
+
+.policy-hero-section {
+    border-bottom: 4px solid #6EC829;
+    background: url("../web-asset/images/hero-bg-12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 16px 0 80px;
+    
+
+    .nav {
+        border-bottom: 0 !important;
+
+        .nav-item {
+            background: $color-white;
+            border-radius: 5px 5px 0px 0px;
+            border: 0!important;
+
+            .active {
+                background: $primary-color !important;
+                color: $color-white !important;
+                border-color: $primary-color !important;
+            }
+            :hover {
+                border: 0!important;
+            }
+            .nav-link {
+                border: none;
+
+                
+            }
+
+            
+        }
+
+    }
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: none !important;
+    }
+    .nav-tabs {
+        border-bottom: none !important;
+    }
+    .nav-tabs .nav-link:hover  {
+        border-color: $primary-color !important;
+    }
+    .nav-link.active {
+        border-color: $primary-color;
+    }
+    .main-hero-img {
+        position: absolute;
+        left: -138px;
+        bottom: 0;
+        width: 850px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media(max-width:1200px) {
+            width: auto;
+        }
+        @media (max-width:991px) {
+                        
+        }
+    }
+
+    .tagline-wrapper {
+        margin-top: 45px;
+        margin-bottom: 40px;
+    }
+}
+
+.bbp-aboutus {
+    // padding: 80px 16px;
+}
+
+.type-of-motor-insurance {
+    li {
+        ::marker {
+            font-size: 1rem !important;
+            display: block !important;
+            color: red !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+
+    }
+    
+}
+
+.list-style-on {
+    ul .list-circle {
+        list-style: disc !important ;
+    }
+}

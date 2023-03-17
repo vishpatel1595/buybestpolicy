@@ -1,0 +1,77 @@
+.sip-calculator-wrapper {
+    .custom-range {
+        display: flex;
+        color: $custom-range-color;
+        span {
+            width: 3.313rem;
+            display: flex;
+            position: relative;
+            text-align: center;
+        }
+    }
+    //   style 2
+    .wrapper {
+        position: unset ;
+        display: flex ;
+        align-items: center ;
+        justify-content: center ;
+        background-color: transparent ;
+        flex-direction: column ;
+        width: 100%;
+    }
+    custom-slider{
+        width: 100%;
+    }
+}
+.card-style-sip {
+    background: $card-slip-bg;
+    border: 0.063rem solid $card-slip-border;
+    box-shadow: 0.25rem 0.25rem 0 $card-slip-border;
+    border-radius: 0.25rem;
+    padding: 0.313rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 0.625rem;
+    .money-title {
+        font-family: 'Rupee';
+        font-style: normal;
+        font-weight: $font-weight-regular;
+        font-size: 1rem;
+        line-height: 1.125rem;
+        text-align: center;
+        color: $number-list-text;
+        margin: 0 0.625rem 0 0;
+    }
+    .number-title {
+        font-style: normal;
+        font-weight: $font-weight-bold;
+        font-size: 1.75rem;
+        line-height: 2.563rem;
+        /* identical to box height */
+        text-align: center;
+        color: $global-font-title;
+        margin: 0;
+    }
+    .number-list-text {
+        font-style: normal;
+        font-weight: $font-weight-bold;
+        font-size: 1rem;
+        line-height: 1.188rem;
+        text-align: center;
+        color: $number-list-text;
+        vertical-align: bottom;
+        margin: 0 0 0 0.625rem;
+    }
+}
+.inflatraion-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rangeinputvaluechange{
+    background: none;
+    max-width: 4.25rem;
+    text-align: center;
+    border: none;
+    font-weight: $font-weight-bold;
+}

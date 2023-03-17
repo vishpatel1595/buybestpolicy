@@ -1,0 +1,49 @@
+.action-wrapper {
+    ul { padding: 0;}
+    .nav-link {
+        color: $primary-color;
+        img {
+            width: 1.125em;
+            margin-right: 0.938rem;
+        }
+        .action-text {
+           font-size: $font-size-normal;
+        }
+        .action-link {
+            color: $primary-color;
+        }
+        &:hover {
+            color: $global-secondary-2;
+        }
+    }
+    @media (max-width:991px) {
+        flex-wrap: wrap;
+        .nav-link {
+            flex-wrap: wrap;
+            padding: 0.625rem;
+            .action-text {
+                display: none;
+             }
+        } 
+    }
+}
+.pagination nav ul li .page-link {
+background: none;
+border: none;
+padding: 0;
+    form {
+        input {
+            width: 5.938rem;
+            font-size: 0.875rem;
+            text-align: end;
+            display: inline-block;
+            border: none;
+            color: $dark-blue;
+        }
+    }
+}
+.pagination-details {
+.page-item.disabled .page-link {
+background: transparent;
+}
+}

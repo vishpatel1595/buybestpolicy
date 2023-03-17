@@ -1,0 +1,208 @@
+// common btn
+.custom-btn {
+    color: $color-white;
+    background-color: $global-secondary-color;
+    display: inline-block !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    user-select: none !important;
+    border: 0.063rem solid $global-secondary-color;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+    &:hover,
+    &:focus,
+    &:focus-visible {
+        background-color: $global-secondary-color;
+        border-color: $global-secondary-color;
+        color: $color-white;
+        outline: 0;
+        box-shadow:$box-shadow-5!important;
+    }
+}
+.pspl-btn {
+    color: $color-white;
+    background-color: $primary-color;
+    border: 0.063rem solid $primary-color;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem ;
+}
+
+.custom-btn-outline {
+    padding: 0.5rem 1.875rem;
+    display: flex;
+    border: 0.063rem solid;
+    background: transparent;
+    border-radius: 0.625rem;
+    cursor: pointer !important;
+    &:hover {
+        background-color: $primary-color;
+        color: $color-white;
+    }
+}
+.download-btn {
+    border: none;
+    &:focus {
+        border: none !important;
+    }
+    &:hover {
+        border: none !important;
+    }
+}
+.table-btn {
+    font-size: $font-size-small;
+    color: $color-white;
+    background-color: $main-tab-icon-border;
+    padding: 0.25rem 0.875rem;
+    font-weight: $font-weight-medium;
+}
+
+.btn-icon {
+    padding: 0.2rem 0.4rem !important;
+    background-color: $global-secondary-2 !important;
+    color: $color-white !important;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+.icon-delete {
+background-color: $primary-color !important;
+}
+
+.secondary-btn-color{
+    background-color: $main-tab-icon-border !important;
+    border: 0.063rem solid $main-tab-icon-border;
+
+    &:hover ,&:focus {
+        box-shadow: $box-shadow-6 !important;
+        border: 0.063rem solid $main-tab-icon-border;
+    }
+}
+
+.update-btn {
+    background-color: $main-tab-icon-border;
+    color: $color-white;
+    border-color: $main-tab-icon-border;
+    &:hover ,&:focus {
+        background-color: $main-tab-icon-border;
+        color: $color-white;
+        border-color: $main-tab-icon-border;
+        box-shadow: $box-shadow-7 !important;
+    }
+}
+
+.edit-btn {
+    background-color: $global-font-dark;
+    color: $primary-color;
+}
+.wishlist-btn-cart {
+ border: none ;
+ padding: 0.313rem;
+ background-color: transparent;
+ transform: scale(0.9);
+ transition: ease-in-out 0.2s;
+   &:hover {
+    transform: scale(1);
+   }
+ }
+.wishlist-btn-delete {
+    border: none ;
+    background-color: transparent;
+    padding: 0.313rem;
+    transform: scale(0.9);
+    transition: ease-in-out 0.2s;
+   color: $primary-color !important;
+   span {
+    color: $primary-color !important;
+   }
+   &:hover {
+    transform: scale(1);
+   }
+}
+.edit-icon-btn {
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+    color: var(--bs-btn-disabled-color)!important;
+    pointer-events: none !important;
+    background-color: var(--bs-btn-disabled-bg) !important;
+    border-color: var(--bs-btn-disabled-border-color) !important;
+    opacity: 0.65!important;
+  }
+  .custom-btn.disabled, .custom-btn:disabled, fieldset:disabled {
+    pointer-events: none !important;
+    opacity: 0.65!important;
+  }
+  .pspl-btn.disabled, .pspl-btn:disabled, fieldset:disabled {
+    pointer-events: none !important;
+    opacity: 0.65!important;
+  }
+  .download-btn.disabled, .download-btn:disabled, fieldset:disabled {
+    pointer-events: none !important;
+    opacity: 0.65!important;
+  }
+  .secondary-btn-color.disabled, .secondary-btn-color:disabled, fieldset:disabled {
+    pointer-events: none !important;
+    opacity: 0.65 !important;
+  }
+  .btn.disabled, .btn:disabled, fieldset:disabled .btn {
+  color: var(--bs-btn-disabled-color) !important;
+  pointer-events: none !important;
+  background-color: var(--bs-btn-disabled-bg) !important;
+  border-color: var(--bs-btn-disabled-border-color) !important;
+  opacity: 0.65 !important;
+}
+.multiple-bank-btn {
+    background-color: $header-bg !important;
+    padding:0.375rem 0.75rem !important;
+    color: $color-white !important;
+    border: 0.063rem solid $header-bg;
+    border-radius: 0.25rem !important;
+    :hover {
+        background-color: $main-tab-icon-border;
+        color: $color-white;
+        border-color: $main-tab-icon-border;
+        box-shadow: $box-shadow-7 !important;
+    }
+}
+.multiple-bank-btn:hover, .multiple-bank-btn:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 63, 102, 0.2) !important;
+  border: 0.063rem solid $header-bg;
+}
+.multiple-bank-btn.disabled, .multiple-bank-btn:disabled, fieldset:disabled .multiple-bank-btn {
+    pointer-events: none !important;
+    opacity: 0.65 !important;
+  }
+
+  .playstore-btn {
+    background-image: url("../web-asset/images/google-play-store.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // padding: 16px 32px;
+    width: 100px;
+height: 30px;
+border: none;
+border-radius: 5px;
+}
+
+.appstore-btn {
+    background-image: url("../web-asset/images/apple-store.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // padding: 16px 32px;
+    width: 100px;
+height: 30px;
+border: none;
+border-radius: 5px; 
+}

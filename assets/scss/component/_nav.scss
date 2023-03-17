@@ -1,0 +1,62 @@
+// .mutual-tabs-vertical {
+//   margin-top: 2rem;
+//   .nav {
+//     width: 100% ;
+//     max-width: 13.75rem;
+//     .nav-link {
+//       padding: 0.625rem 0 0.625rem 0;
+//     }
+//     @media (max-width:768px) {
+//       width: 100%;
+//       max-width: 100%;
+//   }
+//   }
+//   .nav-link {
+//     display: block;
+//     position: relative;
+//     padding-bottom: 0.438rem;
+//     cursor: pointer;
+//     max-width: 13.75rem;
+//     color: $global-font-color;
+//     font-weight: $font-weight-bold;
+//   }
+//   .nav-link:before {
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     height: 0.125rem;
+//     width: 0;
+//     transition: width 0s ease, background 0.5s ease;
+//   }
+//   .nav-link:after {
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     right: 0;
+//     bottom: 0;
+//     height: 0.125rem;
+//     width: 0;
+//     background: $primary-color;
+//     transition: width 0.5s ease;
+//   }
+//   .nav-link:hover,
+//   .nav-link.active {
+//     color: $primary-color;
+//   }
+//   .nav-link:hover:before,
+//   .nav-link.active:before {
+//     width: 100%;
+//     background: $primary-color;
+//     transition: width 0.5s ease;
+//   }
+//   .nav-link:hover:after {
+//     width: 100%;
+//     background: transparent;
+//     transition: all 0s ease;
+//   }
+//   @media (max-width:768px) {
+//    flex-wrap: wrap;
+//   }
+// }
